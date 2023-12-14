@@ -9,8 +9,8 @@ import json
 from bs4 import BeautifulSoup
 
 def get_weather(city, selected_date):
-    api_key = 'ee9105b7a210f33c80b50dc1b632fc69'
-    base_url = 'http://api.openweathermap.org/data/2.5/forecast'
+    api_key = ''
+    base_url =''
 
 
     date_str = selected_date.strftime("%Y-%m-%d")
